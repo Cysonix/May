@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "cn.edu.cuc.logindemo"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '28.0.3'
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-v4:26.0.0'
+    compile 'com.android.support:design:26.0.0'
+    //Okhttp3
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //Retrofit 对Okhttp的进一步封装
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.6.2'
+    //Gson 库
+    //转换器，请求结果转换成Model(用于反序列化JSON字符串成Java对象)
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //RxJava & RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.x.y'
+    //配合Rxjava 使用
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    //添加HttpLoggingInterceptor进行调试
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+}

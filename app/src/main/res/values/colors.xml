@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#EEEEEE</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- 主页 -->
+    <color name="home_gallary_text_color">#f5fcfe</color>
+    <color name="home_gallary_listtitle_unclick_color">#5e9a9f</color>
+    <color name="home_gallary_listtitle_clicked_color">#4a5051</color>
+    <color name="home_gallary_abstract_unclick_color">#303133</color>
+    <color name="home_gallary_abstract_clicked_color">#8e8e8f</color>
+    <color name="home_slidemenu_text_selected_color">#d84a29</color>
+    <color name="home_slidemenu_text_unselect_color">#f5fcfe</color>
+
+</resources>

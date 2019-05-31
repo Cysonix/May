@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_relativelayout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@drawable/splash_bg">
+    
+    <LinearLayout
+        android:id="@+id/about_linearlayout_container"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:gravity="center_horizontal"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="50dip"
+	    android:background="@null" 
+        >
+        <TextView 
+            android:id="@+id/about_textview_version"
+   			android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="版本号:1.0"
+	    	/>
+        <TextView 
+            android:id="@+id/about_textview_copyright"
+   			android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="copyright @2019 移动应用开发"
+	    	/>
+        "
+        
+        
+        
+    </LinearLayout>
+	
+</RelativeLayout>

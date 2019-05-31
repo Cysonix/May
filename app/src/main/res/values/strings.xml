@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">May</string>
+    <string name="phone_login">用户名/密码登录</string>
+    <string name="login">开始使用</string>
+    <string name="slogan">做有态度的主流新闻内容传播APP</string>
+    <string name="hint_psw">密码</string>
+    <string name="hint_user">用户名</string>
+
+    <string name="cancel">取消</string>
+    <string name="waiting">请稍后...</string>
+    <string name="loading">加载中</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="exit">确定退出吗？</string>
+    <string name="tips">提示</string>
+
+    <!--公共-->
+    <string name="news_loading">加载中</string>
+    <!-- 欢迎页 -->
+    <string name="splash_db_create_error">数据库创建失败</string>
+
+    <!-- WebView -->
+    <string name="url_validate_error">地址不符合规范，请检查！</string>
+
+    <!-- 登录页 -->
+    <string name="login_db_validate_error">用户名密码错误，请重试</string>
+
+    <!-- 下拉更新列表 -->
+    <string name="pulldown_footer_more">点击获取更多</string>
+    <string name="pulldown_header_up_refresh">松开刷新</string>
+    <string name="pulldown_header_down_refresh">下拉刷新</string>
+    <string name="pulldown_header_refreshing">正在刷新…</string>
+    <string name="pulldown_update">最近更新：</string>
+    <string name="pulldown_load_more">加载更多中…</string>
+
+    <!-- 首页 -->
+    <string name="main_slidemenu_parentchannelname">栏目</string>
+
+    <!-- 新闻列表 -->
+    <string name="news_details_nomorepage_end">已翻到最末</string>
+    <string name="news_details_nomorepage_start">已翻到最开始</string>
+
+
+    <!-- 更多 -->
+    <string name="more_banner_title">更   多</string>
+    <string name="more_tab_collection">我的收藏</string>
+    <string name="more_tab_msgpush">消息推送</string>
+    <string name="more_content_fontsize">正文字号</string>
+    <string name="more_content_fontsize_large">大号字</string>
+    <string name="more_content_fontsize_middle">中号字</string>
+    <string name="more_content_fontsize_small">小号字</string>
+
+    <string name="more_content_setpush">推送设置</string>
+    <string name="more_content_setoffline">离线设置</string>
+    <string name="more_content_setnoimage">无图模式</string>
+    <string name="more_content_cleancache">清理缓存</string>
+    <string name="more_content_update">版本检测</string>
+    <string name="more_content_cacheunit">MB</string>
+    <string name="more_content_alarmvoice">闹铃声音</string>
+    <string name="more_content_pushswitch">消息推送</string>
+    <string name="more_content_bindweibo">微博绑定</string>
+    <string name="more_content_vote">投票资料</string>
+    <string name="more_content_contactus">联系我们</string>
+
+    <string name="more_content_alarmvoice_men">男声</string>
+    <string name="more_content_alarmvoice_women">女声</string>
+    <string name="more_content_msg_clearcache">是否要清空缓存?</string>
+    <string name="more_content_msg_clearcache_finished">缓存已清空!</string>
+    <string name="more_content_msg_update">是否要升级到最新版本?</string>
+
+    <string name="more_content_msg_pushswitch_on">消息推送功能已开启</string>
+    <string name="more_content_msg_pushswitch_off">消息推送功能已关闭</string>
+
+    <!-- 联系我们 -->
+    <string name="about_version">版本号 :</string>
+    <string name="about_copyright">copyright @2019 移动应用开发</string>
+
+
+</resources>

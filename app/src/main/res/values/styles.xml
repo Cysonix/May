@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowActionBar">false</item>//无ActionBar
+        <item name="android:windowNoTitle">true</item>//无标题
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="login_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dip</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <!--EditText的主題 Start-->
+    <style name="TextInputLayoutLineColor" parent="Theme.AppCompat.Light">
+        <!--没有获取焦点时的颜色-->
+        <item name="colorControlNormal">@color/colorGray</item>
+        <!--获取焦点时的颜色-->
+        <item name="colorControlActivated">@color/colorGray</item>
+    </style>
+
+    <!--浮动标签-->
+    <style name="hintAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+
+    <!--错误提示信息-->
+    <style name="errorAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <!--超出计数最大长度,浮动标签,下划线,计数文字都会改变颜色-->
+    <style name="counterOverflowTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <!--EditText的主題 End-->
+
+    <style name="More_Tab" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#16487f</item>
+    </style>
+
+    <style name="More_Content" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#16487f</item>
+    </style>
+
+    <style name="Banner_Title" >
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#16487f</item>
+    </style>
+
+    <style name="NoTitle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
